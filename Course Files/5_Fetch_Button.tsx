@@ -33,7 +33,7 @@ renderList() {
 
 }
 // and we know it's going to return an array of JSX elements, so let's annotate it as such. If you remember in the Typescript React course,
-// Typescript has a built-in type definition for JSX elements called 'JSX.Element':
+// Typescript has a built-in type definition for JSX elements called, surprisingly, 'JSX.Element':
 renderList(): JSX.Element[] {
 
 }
