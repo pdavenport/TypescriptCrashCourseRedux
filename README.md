@@ -29,6 +29,6 @@ Feel free to follow along with the [video course](https://redventures.udemy.com/
 
 Complete the assignment in the `final project` directory
 
-## To begin
+## To Begin
 
 Start with directory `Chapter 1` and enjoy!
