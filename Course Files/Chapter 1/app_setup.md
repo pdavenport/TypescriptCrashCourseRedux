@@ -4,7 +4,7 @@ In order to take a dive into TypeScript with Redux, let's create a simple app to
 
 ## Project Setup
 
-Firstly, go ahead and navigate to a directory you'd like to create the project in and type
+Firstly, go ahead and navigate to a directory you'd like to create the project in. Type the following but of course replace "yourfancyappname" with whatever you'd like to call your app.
 
 ```c
 npx create-react-app yourfancyappname --template TypeScript
@@ -44,7 +44,7 @@ ReactDOM.render(
   document.getElementById("root")
 ```
 
-if everything worked correctly you should see a few errors! Now the first should be around your import for `react-redux` (which may be fixed in the future) but this is because `react-redux`'s TypeScript definition file doesn't download automatically. As you may recall, some packages will create custom definition files for how TypeScript should define certain things in the package. So let's make sure we have those installed:
+If everything worked correctly you should see a few errors! Now the first should be around your import for `react-redux` (which may be fixed in the future) but this is because `react-redux`'s TypeScript definition file doesn't download automatically. As you may recall, some packages will create custom definition files for how TypeScript should define certain things in the package. So let's make sure we have those installed:
 
 ```c
 npm install @types/react-redux
